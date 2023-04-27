@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*---------------------------------
+
+  キャッシュレス決済取次
+
+---------------------------------*/
+.cashless-payment {
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: 'Rajdhani', sans-serif;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    margin-top: 0;
+  }
+}
