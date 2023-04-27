@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.cssskin-block_topnews .column.-column1 {
+  width: 10% !important;
+}
+
+.cssskin-block_topnews .column.-column2 {
+  width: 58% !important;
+}
+
+.cssskin-block_topnews .column.-column3 {
+  width: 19% !important;
+}
+
+@media only screen and (max-width: 641px) {
+.cssskin-block_topnews .column.-column1 {
+  width: 100% !important;
+}
+
+.cssskin-block_topnews .column.-column2 {
+  width: 100% !important;
+}
+
+.cssskin-block_topnews .column.-column3 {
+  width: 100% !important;
+}
+
+}

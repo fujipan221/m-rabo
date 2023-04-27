@@ -1,0 +1,44 @@
+// Declaring variables
+@background-color:#06497d;
+@border:transparent;
+@color:#000000;
+@background-color-hover:#06497d;
+@border-hover:transparent;
+@color-hover:#000000;
+
+// Using variables
+a.sns_small{
+	display: inline-block !important;
+	background: @background-color !important;
+	color: @color !important;
+	border: 2px solid @border !important;
+	border-radius: 50% !important;
+	width: 36px !important;
+	height: 36px !important;
+	font-size: 1.28rem !important;
+	line-height: 36px !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	cursor:pointer !important;
+	padding: 0 !important;
+	transition: all 0.2s !important;
+}
+a.sns_small:visited{
+	background: @background-color !important;
+	color: @color !important;
+	border: 2px solid @border !important;
+	text-decoration: none !important;
+}
+a.sns_small:active{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 2px solid @border-hover !important;
+	text-decoration: none !important;
+}
+a.sns_small:hover{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 2px solid @border-hover !important;
+	text-decoration: none !important;
+	opacity: 0.6 !important;
+}

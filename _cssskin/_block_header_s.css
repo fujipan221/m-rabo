@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media (max-width: 641px) {
+.cssskin-_block_header_s .column.-column1 {
+  width: 100% !important;
+}
+
+.cssskin-_block_header_s .column.-column2 {
+  width: 66% !important;
+}
+
+.cssskin-_block_header_s .column.-column3 {
+  width: 28% !important;
+}
+
+}

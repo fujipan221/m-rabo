@@ -1,0 +1,45 @@
+// Declaring variables
+@background-color:#ffffff;
+@border:#816f51;
+@color:#816f51;
+@background-color-hover:#e5dfd6;
+@border-hover:#816f51;
+@color-hover:#816f51;
+
+// Using variables
+a.pp017a_btn{
+	display: inline-block;
+	background: @background-color;
+	color: @color;
+	border: 2px solid @border;
+	border-radius: 2em;
+	min-width: 4.1em;
+	max-width: 100%;
+	font-size: 16px;
+	line-height: 1.4;
+        letter-spacing: 0.1em;
+	text-align: center;
+	text-decoration: none;
+	cursor:pointer;
+	padding: 1em;
+	transition: all 0.2s;
+}
+a.pp017a_btn:visited{
+	background: @background-color;
+	color: @color;
+	border: 2px solid @border;
+	text-decoration: none;
+}
+a.pp017a_btn:active{
+	background: @background-color-hover;
+	color: @color-hover;
+	border: 2px solid @border-hover;
+	text-decoration: none;
+}
+a.pp017a_btn:hover{
+	background: @background-color-hover;
+	border-color: @border-hover;
+	color: @color-hover;
+	text-decoration: none;
+	opacity: 1;
+}

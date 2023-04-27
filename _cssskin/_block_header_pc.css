@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.cssskin-_block_header_pc .column.-column1 {
+  width: 32%;
+}
+
+.cssskin-_block_header_pc .column.-column2 {
+  width: 43%;
+}
+
+.cssskin-_block_header_pc .column.-column3 {
+  width: 23%;
+}
+
+@media only screen and (max-width: 641px) {
+.cssskin-_block_header_pc .column.-column1 {
+  width: 100%;
+}
+
+.cssskin-_block_header_pc .column.-column2 {
+  width: 100%;
+}
+
+.cssskin-_block_header_pc .column.-column3 {
+  width: 100%;
+}
+
+}

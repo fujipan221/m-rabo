@@ -1,0 +1,11 @@
+{
+	"name": "Certified Tax Accountant Office<div class=\"cs-subtitle\">Navy</div>"
+	, "category": "Template"
+	, "description": "ネイビーとグレーを配色した明るい背景用のDressです。"
+	, "colorwheel": {
+		"rule"		: "custom"
+		, "base"	: "#ffffff"
+		, "sub"		: "#f0f0f0"
+		, "accent"	: "#203149"
+	}
+}

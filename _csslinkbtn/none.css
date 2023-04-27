@@ -1,0 +1,39 @@
+a.none {
+  display: inline-block !important;
+  background: transparent !important;
+  color: #2995a3 !important;
+  border: 2px solid transparent !important;
+  border-radius: 0px !important;
+  max-width: 100% !important;
+  font-size: 100% !important;
+  line-height: 2 !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 0em 10px !important;
+  transition: all 0.2s !important;
+  font-family: "rajdhani" !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+a.none:visited {
+  background: transparent !important;
+  color: #2995a3 !important;
+  border: 2px solid transparent !important;
+  text-decoration: none !important;
+}
+a.none:active {
+  background: transparent !important;
+  color: #555555 !important;
+  border: 2px solid transparent !important;
+  text-decoration: none !important;
+}
+a.none:hover {
+  background: transparent !important;
+  color: #555555 !important;
+  border: 2px solid transparent !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 641px) {
+.cssskin-block_bg_news  {
+  margin-bottom: -2px;
+}
+
+}

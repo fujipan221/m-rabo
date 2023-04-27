@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.cssskin-_block_bigtext .c-title {
+  font-size: 9vw !important;
+}
+
+@media only screen and (max-width: 641px) {
+.cssskin-_block_bigtext .c-title {
+  font-size: 8vw !important;
+  word-wrap: break-word;
+}
+
+}

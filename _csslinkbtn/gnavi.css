@@ -1,0 +1,29 @@
+a.gnavi {
+  display: inline-block !important;
+  color: #ab1515 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s !important;
+}
+a.gnavi:visited {
+  color: #ab1515 !important;
+  text-decoration: none !important;
+}
+a.gnavi:active {
+  color: #434343 !important;
+  text-decoration: none !important;
+}
+a.gnavi:hover {
+  color: #434343 !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+a.gnavi span {
+  display: block !important;
+  font-size: 25px !important;
+  padding-bottom: 12px !important;
+  color: #918d80;
+}
+
+

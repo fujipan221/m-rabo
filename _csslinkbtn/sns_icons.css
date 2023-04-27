@@ -1,0 +1,38 @@
+a.sns_icons {
+  display: inline-block !important;
+  background: transparent !important;
+  color: #999999 !important;
+  border: 2px solid #999999 !important;
+  border-radius: 2em !important;
+  min-width: 1em !important;
+  max-width: 100% !important;
+  font-size: 120% !important;
+  line-height: 1em !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 0.75em 0.5em !important;
+  transition: all 0.2s !important;
+  margin: 0.2em !important;
+}
+a.sns_icons:visited {
+  background: transparent !important;
+  color: #999999 !important;
+  border: 2px solid #999999 !important;
+  text-decoration: none !important;
+}
+a.sns_icons:active {
+  background: #2995a3 !important;
+  color: #ffffff !important;
+  border: 2px solid #2995a3 !important;
+  text-decoration: none !important;
+}
+a.sns_icons:hover {
+  background: #2995a3 !important;
+  border-color: #2995a3 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+

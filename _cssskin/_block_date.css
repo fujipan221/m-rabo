@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.cssskin-_block_date .column:first-child + * {
+  width: 61.3% !important;
+}
+
+.cssskin-_block_date .column:first-child {
+  width: 34.6% !important;
+}
+
+@media only screen and (max-width: 641px) {
+.cssskin-_block_date .column:first-child + * {
+  width: 100% !important;
+}
+
+.cssskin-_block_date .column:first-child {
+  width: 100% !important;
+}
+
+}

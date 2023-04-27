@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.cssskin-_block_header_top .column:first-child + * {
+  width: 48px !important;
+  float: right !important;
+}
+
+@media only screen and (max-width: 641px) {
+.cssskin-_block_header_top .column:first-child {
+  width: 85% !important;
+}
+
+}

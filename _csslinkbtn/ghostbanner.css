@@ -1,0 +1,37 @@
+a.ghostbanner {
+  display: inline-block !important;
+  background: #e14fad !important;
+  color: #1a1a1a !important;
+  border: 1px solid #e14fad !important;
+  border-radius: 3px !important;
+  min-width: 2.4em !important;
+  font-size: 90% !important;
+  line-height: 1.3 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 0.5em 1em !important;
+  margin: 0.5em 1em !important;
+  transition: all 0.2s !important;
+}
+a.ghostbanner:visited {
+  background: #e14fad !important;
+  color: #1a1a1a !important;
+  border: 1px solid #e14fad !important;
+  text-decoration: none !important;
+}
+a.ghostbanner:active {
+  background: #e14fad !important;
+  color: #ffffff !important;
+  border: 1px solid #e14fad !important;
+  text-decoration: none !important;
+}
+a.ghostbanner:hover {
+  background: #e14fad !important;
+  color: #ffffff !important;
+  border: 1px solid #e14fad !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+

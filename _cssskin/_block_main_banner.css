@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.cssskin-_block_main_banner .column:first-child {
+  width: 61%;
+}
+
+.cssskin-_block_main_banner .column:first-child + * {
+  width: 39%;
+  padding: 20px;
+}
+
+.cssskin-_block_main_banner  {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 641px) {
+.cssskin-_block_main_banner .column:first-child + * {
+  padding: 0 20px;
+}
+
+.cssskin-_block_main_banner  {
+  margin-bottom: 80px;
+}
+
+}

@@ -1,0 +1,49 @@
+// Declaring variables
+@background-color:transparent;
+@border:#0080b1;
+@color:#0080b1;
+@background-color-hover:#0080b1;
+@border-hover:#0080b1;
+@color-hover:#ffffff;
+
+// Using variables
+a.blue{
+	display: inline-block !important;
+	background: @background-color !important;
+	color: @color !important;
+	border: 1px solid @border !important;
+	border-radius: 6px !important;
+	min-width: 223px !important;
+	max-width: 100% !important;
+	font-size: 11px !important;
+	line-height: 1.8 !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	cursor:pointer !important;
+	padding: 0.8em !important;
+	transition: all 0.2s !important;
+}
+a.blue:visited{
+	background: @background-color !important;
+	color: @color !important;
+	border: 1px solid @border !important;
+	text-decoration: none !important;
+}
+a.blue:active{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 1px solid @border-hover !important;
+	text-decoration: none !important;
+}
+a.blue:hover{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 1px solid @border-hover !important;
+	text-decoration: none !important;
+	opacity: 1 !important;
+}
+@media (max-width: 836px) {
+a.blue{
+	min-width: auto !important;
+}
+}

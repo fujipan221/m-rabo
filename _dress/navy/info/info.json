@@ -1,0 +1,11 @@
+{
+	"name": "プリセット<div class=\"cs-subtitle\">Navy</div>"
+	, "category": "Preset"
+	, "description": "見出しやメニューをネイビーブルーで統一したDressです。背景は設定されていません。"
+	, "colorwheel": {
+		"rule"		: "custom"
+		, "base"	: "#ffffff"
+		, "sub"		: "#2e5075"
+		, "accent"	: "#1b385f"
+	}
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.cssskin-_block_gnavi .column:first-child {
+  width: 20%;
+}
+
+.cssskin-_block_gnavi .column:first-child + * {
+  width: 75%;
+}
+
+@media only screen and (max-width: 641px) {
+.cssskin-_block_gnavi .column:first-child {
+  width: 100%;
+}
+
+}

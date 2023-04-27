@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.cssskin-_block_main_topbanner .column.-column1 {
+  margin-bottom: 0px !important;
+}
+
+.cssskin-_block_main_topbanner .column.-column2 {
+  margin-bottom: 0px !important;
+  padding: 20px;
+}
+
+.cssskin-_block_main_topbanner  {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 641px) {
+.cssskin-_block_main_topbanner .column.-column2 {
+  margin: 0px;
+}
+
+.cssskin-_block_main_topbanner  {
+  margin-bottom: 80px;
+}
+
+}

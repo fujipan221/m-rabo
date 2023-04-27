@@ -1,0 +1,45 @@
+// Declaring variables
+@background-color:transparent;
+@border:$sub2;
+@color:$sub2;
+@background-color-hover:$main;
+@border-hover:$main;
+@color-hover:$sub4;
+
+// Using variables
+a.sns_icons{
+	display: inline-block !important;
+	background: @background-color !important;
+	color: @color !important;
+	border: 2px solid @border !important;
+	border-radius: 2em !important;
+	min-width: 1em !important;
+	max-width: 100% !important;
+	font-size: 120% !important;
+        line-height:1em !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	cursor:pointer !important;
+	padding: 0.75em 0.5em !important;
+	transition: all 0.2s !important;
+ margin:0.2em !important;
+}
+a.sns_icons:visited{
+	background: @background-color !important;
+	color: @color !important;
+	border: 2px solid @border !important;
+	text-decoration: none !important;
+}
+a.sns_icons:active{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 2px solid @border-hover !important;
+	text-decoration: none !important;
+}
+a.sns_icons:hover{
+	background: @background-color-hover !important;
+	border-color: @border-hover !important;
+	color: @color-hover !important;
+	text-decoration: none !important;
+	opacity: 1 !important;
+}

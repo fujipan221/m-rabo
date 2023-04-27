@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.cssskin-block_topmission .column:first-child {
+  width: 20%;
+}
+
+.cssskin-block_topmission .column:first-child + * {
+  width: 74%;
+}
+

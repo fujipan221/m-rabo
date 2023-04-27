@@ -1,0 +1,44 @@
+// Declaring variables
+@background-color:transparent;
+@border:#ffffff;
+@color:#ffffff;
+@background-color-hover:#ffffff;
+@border-hover:#ffffff;
+@color-hover:#1e8fff;
+
+// Using variables
+a.attention_white{
+	display: inline-block !important;
+	background: @background-color !important;
+	color: @color !important;
+	border: 1px solid @border !important;
+	border-radius: 20px !important;
+	min-width: 205px !important;
+	max-width: 100% !important;
+	font-size: 100% !important;
+	line-height: 2 !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	cursor:pointer !important;
+	padding: 5px !important;
+	transition: all 0.2s !important;
+}
+a.attention_white:visited{
+	background: @background-color !important;
+	color: @color !important;
+	border: 2px solid @border !important;
+	text-decoration: none !important;
+}
+a.attention_white:active{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 2px solid @border-hover !important;
+	text-decoration: none !important;
+}
+a.attention_white:hover{
+	background: @background-color-hover !important;
+	border-color: @border-hover !important;
+	color: @color-hover !important;
+	text-decoration: none !important;
+	opacity: 1 !important;
+}

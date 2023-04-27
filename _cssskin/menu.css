@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.cssskin-menu .column.-column1 {
+  width: 27% !important;
+}
+
+.cssskin-menu .column.-column2 {
+  width: 50% !important;
+}
+
+.cssskin-menu .column.-column3 {
+  width: 23% !important;
+}
+
+.cssskin-menu .c-lead {
+  font-weight: bold;
+}
+
+@media (max-width: 641px) {
+.cssskin-menu .column.-column1 {
+  width: 100% !important;
+}
+
+.cssskin-menu .column.-column3 {
+  width: 100% !important;
+}
+
+.cssskin-menu .column.-column2 {
+  width: 100% !important;
+}
+
+}

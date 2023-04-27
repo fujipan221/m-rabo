@@ -1,0 +1,37 @@
+a.btn-attention {
+  display: inline-block !important;
+  background: #231815 !important;
+  color: #ffffff !important;
+  border: 2px solid #231815 !important;
+  border-radius: 6px !important;
+  min-width: 130px !important;
+  max-width: 100% !important;
+  font-size: 100% !important;
+  line-height: 1.8 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 0.5em !important;
+  transition: all 0.2s !important;
+}
+a.btn-attention:visited {
+  background: #231815 !important;
+  color: #ffffff !important;
+  border: 2px solid #231815 !important;
+  text-decoration: none !important;
+}
+a.btn-attention:active {
+  background: #666666 !important;
+  color: #ffffff !important;
+  border: 2px solid #666666 !important;
+  text-decoration: none !important;
+}
+a.btn-attention:hover {
+  background: #666666 !important;
+  color: #ffffff !important;
+  border: 2px solid #666666 !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+

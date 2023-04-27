@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 641px) {
+.cssskin-block_2col_box .column.-column2 {
+  min-height: 160px;
+}
+
+}

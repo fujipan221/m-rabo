@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.cssskin-_block_coordinate_right .column:first-child {
+  margin-top: -30px  !important;
+}
+
+.cssskin-_block_coordinate_right .column:first-child + * {
+  padding: 30px;
+}
+
+@media (max-width: 641px) {
+.cssskin-_block_coordinate_right .column:first-child {
+  margin-top: 0px  !important;
+}
+
+.cssskin-_block_coordinate_right .column:first-child + * {
+  padding: auto auto;
+}
+
+}

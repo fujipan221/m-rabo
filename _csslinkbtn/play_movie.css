@@ -1,0 +1,39 @@
+a.play_movie {
+  display: inline-block !important;
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid transparent !important;
+  border-radius: 0 !important;
+  min-width: 4em !important;
+  width: 100% !important;
+  max-height: 450px !important;
+  font-size: 64px !important;
+  line-height: 1 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 10% !important;
+  transition: all 0.2s !important;
+  opacity: 0.5 !important;
+}
+a.play_movie:visited {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid transparent !important;
+  text-decoration: none !important;
+}
+a.play_movie:active {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid transparent !important;
+  text-decoration: none !important;
+}
+a.play_movie:hover {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid transparent !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+

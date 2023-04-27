@@ -1,0 +1,37 @@
+a.default_black {
+  display: inline-block !important;
+  background: transparent !important;
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
+  border-radius: 0 !important;
+  min-width: 4em !important;
+  max-width: 100% !important;
+  font-size: 100% !important;
+  line-height: 1.8 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 0.25em 1em !important;
+  transition: all 0.2s !important;
+}
+a.default_black:visited {
+  background: transparent !important;
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
+  text-decoration: none !important;
+}
+a.default_black:active {
+  background: transparent !important;
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
+  text-decoration: none !important;
+}
+a.default_black:hover {
+  background: transparent !important;
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
+  text-decoration: none !important;
+  opacity: .5 !important;
+}
+
+

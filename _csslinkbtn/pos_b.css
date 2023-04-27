@@ -1,0 +1,40 @@
+a.pos_b {
+  display: inline-block !important;
+  background: #ff0000 !important;
+  color: #ffffff !important;
+  border: 1px solid #980000 !important;
+  border-radius: 0px !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  font-size: 25px !important;
+  line-height: 0.9 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 0.8em !important;
+  transition: all 0.2s !important;
+}
+a.pos_b:visited {
+  background: #ff0000 !important;
+  color: #ffffff !important;
+  border: 1px solid #980000 !important;
+  text-decoration: none !important;
+}
+a.pos_b:active {
+  background: #555555 !important;
+  color: #ffffff !important;
+  border: 1px solid #555555 !important;
+  text-decoration: none !important;
+}
+a.pos_b:hover {
+  background: #555555 !important;
+  color: #ffffff !important;
+  border: 1px solid #555555 !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+@media (max-width: 836px) {
+  a.pos_b {
+    min-width: auto !important;
+  }
+}

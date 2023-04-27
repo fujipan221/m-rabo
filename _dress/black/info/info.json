@@ -1,0 +1,11 @@
+{
+	"name": "プリセット<div class=\"cs-subtitle\">Black</div>"
+	, "category": "Preset"
+	, "description": "テキストをホワイトで統一した暗い背景用のベーシックなDressです。背景は設定されていません。"
+	, "colorwheel": {
+		"rule"	: "custom"
+		, "base"		: "#000000"
+		, "sub"		: "#535353"
+		, "accent"	: "#313131"
+	}
+}

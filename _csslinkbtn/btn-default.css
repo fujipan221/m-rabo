@@ -1,0 +1,40 @@
+a.btn-default {
+  display: inline-block !important;
+  background: #2995a3 !important;
+  color: #ffffff !important;
+  border: 2px solid #2995a3 !important;
+  border-radius: 0px !important;
+  min-width: 230px !important;
+  max-width: 100% !important;
+  font-size: 100% !important;
+  line-height: 2 !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 0em 10px !important;
+  transition: all 0.2s !important;
+  font-family: "rajdhani" !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+a.btn-default:visited {
+  background: #2995a3 !important;
+  color: #ffffff !important;
+  border: 2px solid #2995a3 !important;
+  text-decoration: none !important;
+}
+a.btn-default:active {
+  background: #555555 !important;
+  color: #ffffff !important;
+  border: 2px solid #555555 !important;
+  text-decoration: none !important;
+}
+a.btn-default:hover {
+  background: #555555 !important;
+  color: #ffffff !important;
+  border: 2px solid #555555 !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+

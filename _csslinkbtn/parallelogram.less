@@ -1,0 +1,58 @@
+// Declaring variables
+@background-color:#c5011a;
+@border:#c5011a;
+@color:#ffffff;
+@background-color-hover:#ffffff;
+@border-hover:#c5011a;
+@color-hover:#c5011a;
+
+// Using variables
+a.parallelogram{
+	display: inline-block !important;
+	background: @background-color !important;
+	color: @color !important;
+	border: 2px solid @border !important;
+	border-radius: 0px !important;
+	width: 100% !important;
+	max-width: 370px !important;
+	font-size: 17px !important;
+	line-height: 2 !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	cursor:pointer !important;
+	padding: 5px 0px !important;
+	transition: all 0.2s !important;
+	 -webkit-transform: skew(-20deg) !important;
+	-moz-transform: skew(-20deg) !important;
+	-o-transform: skew(-20deg) !important;
+	letter-spacing:-0.5px !important;
+	margin-left:3px !important;
+}
+a.parallelogram:visited{
+	background: @background-color !important;
+	color: @color !important;
+	border: 2px solid @border !important;
+	text-decoration: none !important;
+}
+a.parallelogram:active{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 2px solid @border-hover !important;
+	text-decoration: none !important;
+}
+a.parallelogram:hover{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 2px solid @border-hover !important;
+	text-decoration: none !important;
+	opacity: 1 !important;
+}
+@media only screen and (max-width: 641px) {
+a.parallelogram{
+	min-width:auto !important;
+	padding: 5px 25px !important;
+	font-size:13px !important;
+	font-weight:bold !important;
+	letter-spacing:-0.5px !important;
+}
+}

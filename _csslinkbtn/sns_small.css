@@ -1,0 +1,37 @@
+a.sns_small {
+  display: inline-block !important;
+  background: #06497d !important;
+  color: #000000 !important;
+  border: 2px solid transparent !important;
+  border-radius: 50% !important;
+  width: 36px !important;
+  height: 36px !important;
+  font-size: 1.28rem !important;
+  line-height: 36px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  transition: all 0.2s !important;
+}
+a.sns_small:visited {
+  background: #06497d !important;
+  color: #000000 !important;
+  border: 2px solid transparent !important;
+  text-decoration: none !important;
+}
+a.sns_small:active {
+  background: #06497d !important;
+  color: #000000 !important;
+  border: 2px solid transparent !important;
+  text-decoration: none !important;
+}
+a.sns_small:hover {
+  background: #06497d !important;
+  color: #000000 !important;
+  border: 2px solid transparent !important;
+  text-decoration: none !important;
+  opacity: 0.6 !important;
+}
+
+

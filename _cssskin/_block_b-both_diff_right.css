@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.cssskin-_block_b-both_diff_right .column:first-child + * {
+  width: 38%;
+}
+
+.cssskin-_block_b-both_diff_right .column:first-child {
+  width: 56%;
+}
+

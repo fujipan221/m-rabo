@@ -1,0 +1,37 @@
+a.orange_sp {
+  display: inline-block !important;
+  background: transparent !important;
+  color: #f38900 !important;
+  border: 1px solid #f38900 !important;
+  border-radius: 6px !important;
+  min-width: 40px !important;
+  max-width: 100% !important;
+  font-size: 14px !important;
+  line-height: 0 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 0.8em 0.4em !important;
+  transition: all 0.2s !important;
+}
+a.orange_sp:visited {
+  background: transparent !important;
+  color: #f38900 !important;
+  border: 1px solid #f38900 !important;
+  text-decoration: none !important;
+}
+a.orange_sp:active {
+  background: #f38900 !important;
+  color: #ffffff !important;
+  border: 1px solid #f38900 !important;
+  text-decoration: none !important;
+}
+a.orange_sp:hover {
+  background: #f38900 !important;
+  color: #ffffff !important;
+  border: 1px solid #f38900 !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+

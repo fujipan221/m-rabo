@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.cssskin-_block_leftsmall .column:first-child {
+  width: 50px !important;
+  min-height: 50px;
+}
+
+.cssskin-_block_leftsmall .column:first-child + * {
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 641px) {
+.cssskin-_block_leftsmall .column:first-child + * {
+  width: 100% !important;
+}
+
+}

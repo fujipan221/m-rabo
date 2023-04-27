@@ -1,0 +1,38 @@
+a.pp017a_btn {
+  display: inline-block;
+  background: #ffffff;
+  color: #816f51;
+  border: 2px solid #816f51;
+  border-radius: 2em;
+  min-width: 4.1em;
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1em;
+  transition: all 0.2s;
+}
+a.pp017a_btn:visited {
+  background: #ffffff;
+  color: #816f51;
+  border: 2px solid #816f51;
+  text-decoration: none;
+}
+a.pp017a_btn:active {
+  background: #e5dfd6;
+  color: #816f51;
+  border: 2px solid #816f51;
+  text-decoration: none;
+}
+a.pp017a_btn:hover {
+  background: #e5dfd6;
+  border-color: #816f51;
+  color: #816f51;
+  text-decoration: none;
+  opacity: 1;
+}
+
+

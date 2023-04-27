@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.cssskin-_block_header_globalnavi .column:first-child {
+  width: 30% !important;
+}
+
+.cssskin-_block_header_globalnavi .column:first-child + * {
+  width: 70% !important;
+}
+
+@media (max-width: 641px) {
+.cssskin-_block_header_globalnavi  {
+}
+
+.cssskin-_block_header_globalnavi .column:first-child {
+  width: 100% !important;
+}
+
+.cssskin-_block_header_globalnavi .column:first-child + * {
+  width: 100% !important;
+}
+
+}
