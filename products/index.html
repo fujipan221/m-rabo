@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja-JP">
+<html lang="ja">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="robots" content="index" />
@@ -38,7 +38,6 @@
     />
     <link
       rel="stylesheet"
-      type="text/css"
       href="../_module/styles/bind.css?v=11.0.8"
       id="bind-css"
     />
@@ -47,33 +46,20 @@
       type="text/css"
       href="../_dress/ap020a/base.css?1564973909925"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../_dress/white/base.css?1564973909925"
-    />
+    <link rel="stylesheet" href="../_dress/white/base.css?1564973909925" />
     <link
       rel="stylesheet"
       type="text/css"
       href="../_dress/ap020breadcrumbs/base.css?1564973909925"
     />
+    <link rel="stylesheet" href="../_dress/black/base.css?1564973909925" />
+    <link rel="stylesheet" href="index.css?1564973909926c0100" id="page-css" />
     <link
       rel="stylesheet"
-      type="text/css"
-      href="../_dress/black/base.css?1564973909925"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="index.css?1564973909926c0100"
-      id="page-css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
       href="../_webfonts.css?1564973909933"
       id="webfont-css"
     />
+    <link rel="stylesheet" href="./main.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -84,9 +70,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "UA-145091799-1");
+      gtag('config', 'UA-145091799-1');
     </script>
   </head>
   <body
@@ -1147,6 +1133,7 @@
                           </div>
                         </div>
                       </div>
+                      <!-- 釣銭機・自動釣銭機付POSレジ START -->
                       <div
                         id="bk2990"
                         class="b-both_diff -right_large -sp-single_column c-space_narrow c-sp-space_normal c-padding_normal cssskin-_block_main"
@@ -1187,31 +1174,19 @@
                           </div>
                         </div>
                       </div>
-                      <div
-                        id="bk2989"
-                        class="b-plain c-space_normal c-sp-space_normal cssskin-_block_main"
-                        data-bk-id="bk2989"
-                      >
-                        <!-- <div class="column -column1" id="service01">
-                          <h3 class="c-large_headline c-center">
-                            デビットカード・クレジットカード・電子マネー決済サービス
-                          </h3>
-                          <div class="c-body c-center">
-                            <hr class="c-hr" />
-                          </div>
-                        </div> -->
-                        <div class="column -col1">
-                          <h3 class="c-large_headline c-center">
-                        <h3 class="none c-large_headline">
-                          <a
-                            href="https://jpsic.co.jp/terminal/54"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="pos_b"
-                            >キャッシュレス決済取次</a
-                          >
-                        </h3>
+                      <!-- 釣銭機・自動釣銭機付POSレジ END -->
+
+                      <!-- キャッシュレス決済取次ボタン START -->
+                      <div class="cashless-payment">
+                        <a
+                          href="https://jpsic.co.jp/terminal/54"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="pos_b"
+                          >キャッシュレス決済取次</a
+                        >
                       </div>
+                      <!-- キャッシュレス決済取次ボタン END -->
                       <div
                         id="bk2628"
                         class="b-plain -bg-stretch c-space_normal c-sp-space_normal -dress_black cssskin-_block_main"
@@ -1440,36 +1415,32 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript">
-      <!--
+    <script>
+      'use strict';
       var css_list = [
-        "//fonts.googleapis.com/css?family=Rajdhani:300,regular,500,600,700",
-        "../_cssskin/_area_side_a.css",
-        "../_cssskin/_area_billboard.css",
-        "../_cssskin/_area_ghost_header.css",
-        "../_cssskin/_area_main.css",
-        "../_cssskin/_area_header.css",
-        "../_cssskin/_area_side_b.css",
-        "../_cssskin/_area_footer.css",
-        "../_cssskin/_block_footer.css",
-        "../_cssskin/_block_header.css",
-        "../_cssskin/_block_ghost_header.css",
-        "../_cssskin/_block_side_a.css",
-        "../_cssskin/_block_side_b.css",
-        "../_cssskin/_block_billboard.css",
-        "../_cssskin/_block_main.css",
-        "../_csslinkbtn/btn-import.css",
+        '//fonts.googleapis.com/css?family=Rajdhani:300,regular,500,600,700',
+        '../_cssskin/_area_side_a.css',
+        '../_cssskin/_area_billboard.css',
+        '../_cssskin/_area_ghost_header.css',
+        '../_cssskin/_area_main.css',
+        '../_cssskin/_area_header.css',
+        '../_cssskin/_area_side_b.css',
+        '../_cssskin/_area_footer.css',
+        '../_cssskin/_block_footer.css',
+        '../_cssskin/_block_header.css',
+        '../_cssskin/_block_ghost_header.css',
+        '../_cssskin/_block_side_a.css',
+        '../_cssskin/_block_side_b.css',
+        '../_cssskin/_block_billboard.css',
+        '../_cssskin/_block_main.css',
+        '../_csslinkbtn/btn-import.css',
       ];
-      var page_update = 1560435059684;
-      //-->
+      const page_update = 1560435059684;
     </script>
     <script src="../_module/lib/lib.js?v=11.0.8"></script>
     <script src="../_module/scripts/bind.js?v=11.0.8" id="script-js"></script>
-    <!--[if lt IE 9
-      ]><script src="../_module/lib/html5shiv.min.js?v=11.0.8"></script
-    ><![endif]-->
     <!-- custom_tags_start -->
-    <script type="text/javascript"></script>
+    <script></script>
     <meta
       name="keywords"
       content="券売機,食券,販売機,タッチパネル式券売機,自動券売機,静岡県,静岡市,安い,激安,マルマツレボ,マルマツレボ株式会社,GLORY,芝浦メカトロニクス株式会社,NECマグナスコミュニケーションズ,静岡,浜松,伊豆,伊豆の国,三島,沼津,裾野,御殿場,小山,富士,富士宮,焼津,藤枝,島田,牧之原,磐田,袋井,掛川,袋井,"
