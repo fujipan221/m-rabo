@@ -1,6 +1,27 @@
 @charset "utf-8";
 /*---------------------------------
 
+  クレジットカード・ICカード・QRコード決済対応券売機
+
+---------------------------------*/
+.cashless-machine {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  gap: 32px;
+}
+
+.cashless-machine__img {
+  border: 1px solid #ccc;
+  height: 475px;
+  width: calc(1000px / 3);
+}
+
+/*---------------------------------
+
   キャッシュレス決済取次
 
 ---------------------------------*/
@@ -13,8 +34,18 @@
   font-weight: bold;
   font-family: 'Rajdhani', sans-serif;
   width: 100%;
+}
 
-  @media screen and (min-width: 768px) {
+/*---------------------------------
+
+  PC表示
+
+---------------------------------*/
+@media screen and (min-width: 768px) {
+  .cashless-machine {
+    flex-direction: row;
+  }
+  .cashless-payment {
     width: 50%;
     margin-top: 0;
   }
