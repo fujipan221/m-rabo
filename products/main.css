@@ -26,7 +26,6 @@
 .cashless-machine__img {
   border: 1px solid #ccc;
   height: 475px;
-  width: calc(1000px / 3);
 }
 
 /*---------------------------------
@@ -41,7 +40,7 @@
   align-items: center;
   margin-bottom: 30px;
   font-weight: bold;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   width: 100%;
 }
 
