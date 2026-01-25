@@ -98,6 +98,7 @@
           flex-wrap: wrap;
           gap: 20px;
           justify-content: flex-start;
+          align-items: flex-end; /* 底辺を揃える */
       }
       .machine-item {
           width: 30%; /* PCでは3列 */
@@ -107,10 +108,10 @@
       }
       .machine-item img {
           width: 100%;
-          height: auto;
-          object-fit: contain;
-          max-height: 300px; /* 画像が高くなりすぎないように制限 */
+          height: 250px;       /* ★ここが修正点：高さを固定してズレを防ぐ */
+          object-fit: contain; /* ★枠内にきれいに収める */
           border: 1px solid #eee; /* 薄い枠線 */
+          background-color: #fff; /* 背景を白に */
       }
       .machine-item p {
           margin-top: 10px;
@@ -123,6 +124,9 @@
       @media screen and (max-width: 768px) {
           .machine-item {
               width: 45%; /* スマホでは2列 */
+          }
+          .machine-item img {
+              height: 180px; /* スマホでは少し高さを小さく */
           }
       }
     </style>
