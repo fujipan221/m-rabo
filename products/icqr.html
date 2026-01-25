@@ -77,7 +77,56 @@
       href="../_webfonts.css?1564973913896"
       id="webfont-css"
     />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <style>
+      /* 新しい商品リストのレイアウト用 */
+      .product-section {
+          padding: 20px;
+          max-width: 960px;
+          margin: 0 auto;
+      }
+      .product-category-title {
+          font-size: 1.4em;
+          border-left: 5px solid #005bac; /* 青いバー */
+          padding-left: 10px;
+          margin-top: 40px;
+          margin-bottom: 20px;
+          font-weight: bold;
+      }
+      .machine-grid {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: flex-start;
+      }
+      .machine-item {
+          width: 30%; /* PCでは3列 */
+          margin-bottom: 30px;
+          text-align: center;
+          box-sizing: border-box;
+      }
+      .machine-item img {
+          width: 100%;
+          height: auto;
+          object-fit: contain;
+          max-height: 300px; /* 画像が高くなりすぎないように制限 */
+          border: 1px solid #eee; /* 薄い枠線 */
+      }
+      .machine-item p {
+          margin-top: 10px;
+          font-weight: bold;
+          font-size: 0.9em;
+          color: #333;
+      }
+      
+      /* スマホ表示用 */
+      @media screen and (max-width: 768px) {
+          .machine-item {
+              width: 45%; /* スマホでは2列 */
+          }
+      }
+    </style>
+
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-145091799-1"
@@ -372,54 +421,83 @@
                             </div>
                           </div>
                           <div class="column -col8">
-                            <!-- <p class="c-body"> -->
                             <font size="4"
                               >マルマツレボは、お店の特徴や販売形態、客層に合わせたキャッシュレス決済対応券売機をご提案し、サービス向上のお手伝いをいたします。
                             </font>
-                            <!-- </p> -->
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="b-plain c-space_normal c-sp-space_normal cssskin-_block_main">
+                        <div class="column -column1">
+                          <h3 class="c-large_headline c-center">
+                            キャッシュレス決済可能な券売機
+                          </h3>
+                          <div class="c-body c-center">
+                            <hr class="c-hr" />
                           </div>
                         </div>
                       </div>
-                      <div
-                        id="bk6882"
-                        class="b-album c-space_narrow c-sp-space_normal c-padding_normal cssskin-_block_main"
-                        data-bk-id="bk6882"
-                      >
-                        <div class="g-column -col3 -sp-col1 -no_spacing">
-                          <div class="column -column1">
-                            <div class="c-center c-photo">
-                              <div class="c-img c-fleft">
-                                <img
-                                  src="../_src/6599/sign_20190514225922640.png?v=1560435059684"
-                                  alt=""
-                                  id="imgsrc6599_1"
-                                />
-                              </div>
+
+                      <div class="product-section">
+                        
+                        <div class="product-category-title">タッチパネル式</div>
+                        <div class="machine-grid">
+                            <div class="machine-item">
+                                <img src="../_src/products/VT-T21M.jpg" alt="VT-T21M">
+                                <p>VT-T21M</p>
                             </div>
-                          </div>
-                          <div class="column -column2">
-                            <div class="c-center c-photo">
-                              <div class="c-img c-fleft">
-                                <img
-                                  src="../_src/6601/sign_20190514225922640.png?v=1560435059684"
-                                  alt=""
-                                  id="imgsrc6601_1"
-                                />
-                              </div>
+                            <div class="machine-item">
+                                <img src="../_src/products/KC-TX.jpg" alt="KC-TX">
+                                <p>KC-TX</p>
                             </div>
-                          </div>
-                          <div class="column -column3 -column-lasts">
-                            <div class="c-center c-photo">
-                              <div class="c-img c-fleft">
-                                <img
-                                  src="../_src/6603/sign_20190514225922640.png?v=1560435059684"
-                                  alt=""
-                                  id="imgsrc6603_1"
-                                />
-                              </div>
+                            <div class="machine-item">
+                                <img src="../_src/products/MPT4S.jpg" alt="MPT4S">
+                                <p>MPT4S</p>
                             </div>
-                          </div>
                         </div>
+
+                        <div class="product-category-title">ボタン式</div>
+                        
+                        <div class="machine-grid">
+                            <div class="machine-item">
+                                <img src="../_src/products/VT-G21M.jpg" alt="VT-G21M">
+                                <p>VT-G21M</p>
+                            </div>
+                            <div class="machine-item">
+                                <img src="../_src/products/VT-B20.png" alt="VT-B20">
+                                <p>VT-B20</p>
+                            </div>
+                            <div class="machine-item">
+                                <img src="../_src/products/VT-S20.png" alt="VT-S20">
+                                <p>VT-S20</p>
+                            </div>
+                        </div>
+
+                        <div class="machine-grid" style="margin-top: 20px;">
+                            <div class="machine-item">
+                                <img src="../_src/products/BT-e3ｼﾘｰｽﾞ.jpg" alt="BT-e3シリーズ">
+                                <p>BT-e3シリーズ</p>
+                            </div>
+                            <div class="machine-item">
+                                <img src="../_src/products/BT-L350.jpg" alt="BT-L350">
+                                <p>BT-L350</p>
+                            </div>
+                            <div class="machine-item" style="visibility: hidden;"></div>
+                        </div>
+
+                        <div class="machine-grid" style="margin-top: 20px;">
+                            <div class="machine-item">
+                                <img src="../_src/products/KB-272EX.jpg" alt="KB-272EX">
+                                <p>KB-272EX</p>
+                            </div>
+                            <div class="machine-item">
+                                <img src="../_src/products/KB172NNS.jpg" alt="KB172NNS">
+                                <p>KB172NNS</p>
+                            </div>
+                             <div class="machine-item" style="visibility: hidden;"></div>
+                        </div>
+
                       </div>
                       <div
                         id="bk6873"
@@ -820,40 +898,13 @@
       </div>
     </div>
     <script type="text/javascript">
-      <!--
-      var css_list = [
-        "//fonts.googleapis.com/css?family=Rajdhani:300,regular,500,600,700",
-        "../_cssskin/_area_side_a.css",
-        "../_cssskin/_area_billboard.css",
-        "../_cssskin/_area_ghost_header.css",
-        "../_cssskin/_area_main.css",
-        "../_cssskin/_area_header.css",
-        "../_cssskin/_area_side_b.css",
-        "../_cssskin/_area_footer.css",
-        "../_cssskin/_block_footer.css",
-        "../_cssskin/_block_header.css",
-        "../_cssskin/_block_ghost_header.css",
-        "../_cssskin/ic_img.css",
-        "../_cssskin/_block_side_a.css",
-        "../_cssskin/_block_side_b.css",
-        "../_cssskin/_block_billboard.css",
-        "../_cssskin/_block_main.css",
-        "../_csslinkbtn/btn-import.css",
-      ];
-      var page_update = 1560435059684;
-      //-->
-    </script>
+      </script>
     <script src="../_module/lib/lib.js?v=11.0.8"></script>
     <script src="../_module/scripts/bind.js?v=11.0.8" id="script-js"></script>
-    <!--[if lt IE 9
-      ]><script src="../_module/lib/html5shiv.min.js?v=11.0.8"></script
-    ><![endif]-->
-    <!-- custom_tags_start -->
     <script type="text/javascript"></script>
     <meta
       name="keywords"
       content="券売機,食券,販売機,タッチパネル式券売機,自動券売機,静岡県,静岡市,安い,激安,マルマツレボ,マルマツレボ株式会社,GLORY,芝浦メカトロニクス株式会社,NECマグナスコミュニケーションズ,静岡,浜松,伊豆,伊豆の国,三島,沼津,裾野,御殿場,小山,富士,富士宮,焼津,藤枝,島田,牧之原,磐田,袋井,掛川,袋井,"
     />
-    <!-- custom_tags_end -->
-  </body>
+    </body>
 </html>
