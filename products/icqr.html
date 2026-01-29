@@ -98,20 +98,20 @@
           flex-wrap: wrap;
           gap: 20px;
           justify-content: flex-start;
-          align-items: flex-end; /* 底辺を揃える */
+          align-items: flex-end;
       }
       .machine-item {
-          width: 30%; /* PCでは3列 */
+          width: 30%;
           margin-bottom: 30px;
           text-align: center;
           box-sizing: border-box;
       }
       .machine-item img {
           width: 100%;
-          height: 250px;       /* ★ここが修正点：高さを固定してズレを防ぐ */
-          object-fit: contain; /* ★枠内にきれいに収める */
-          border: 1px solid #eee; /* 薄い枠線 */
-          background-color: #fff; /* 背景を白に */
+          height: 250px;
+          object-fit: contain;
+          border: 1px solid #eee;
+          background-color: #fff;
       }
       .machine-item p {
           margin-top: 10px;
@@ -119,14 +119,26 @@
           font-size: 0.9em;
           color: #333;
       }
+
+      /* 画像中央寄せ専用 */
+      .center-image-box {
+          text-align: center !important;
+          width: 100% !important;
+          display: block !important;
+          margin: 20px auto !important;
+      }
+      .center-image-box img {
+          display: inline-block !important;
+          margin: 0 auto !important;
+          float: none !important;
+      }
       
-      /* スマホ表示用 */
       @media screen and (max-width: 768px) {
           .machine-item {
-              width: 45%; /* スマホでは2列 */
+              width: 45%;
           }
           .machine-item img {
-              height: 180px; /* スマホでは少し高さを小さく */
+              height: 180px;
           }
       }
     </style>
@@ -141,7 +153,6 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-145091799-1");
     </script>
   </head>
@@ -199,65 +210,16 @@
                           data-btn-position="rightTop_fixed"
                         >
                           <ul class="c-menu -menu_a">
-                            <li>
-                              <a
-                                href="../about.html"
-                                data-pid="158"
-                                class="なし"
-                                >会社案内</a
-                              >
-                            </li>
-                            <li>
-                              <a
-                                href="../products/index.html"
-                                data-pid="157"
-                                class="なし"
-                                >取扱商品</a
-                              >
-                            </li>
-                            <li>
-                              <a
-                                href="../revue/voice.html"
-                                data-pid="172"
-                                class="なし"
-                                >お客様の声</a
-                              >
-                            </li>
-                            <li>
-                              <a href="../qa.html" data-pid="156" class="なし"
-                                >よくあるご質問</a
-                              >
-                            </li>
-                            <li>
-                              <a
-                                href="../reuse.html"
-                                data-pid="170"
-                                class="なし"
-                                >リユース・レンタル商品</a
-                              >
-                            </li>
-                            <li>
-                              <a
-                                href="../guide/contact.html"
-                                data-pid="159"
-                                class="なし"
-                                >お問合せはこちら</a
-                              >
-                            </li>
-                            <li>
-                              <a
-                                href="../guide/policy.html"
-                                data-pid="171"
-                                class="なし"
-                                >プライバシーポリシー</a
-                              >
-                            </li>
+                            <li><a href="../about.html" data-pid="158">会社案内</a></li>
+                            <li><a href="../products/index.html" data-pid="157">取扱商品</a></li>
+                            <li><a href="../revue/voice.html" data-pid="172">お客様の声</a></li>
+                            <li><a href="../qa.html" data-pid="156">よくあるご質問</a></li>
+                            <li><a href="../reuse.html" data-pid="170">リユース・レンタル商品</a></li>
+                            <li><a href="../guide/contact.html" data-pid="159">お問合せはこちら</a></li>
+                            <li><a href="../guide/policy.html" data-pid="171">プライバシーポリシー</a></li>
                           </ul>
                         </div>
-                        <div
-                          id="spNavigationTrigger"
-                          class="c-sp_navigation_btn"
-                        ></div>
+                        <div id="spNavigationTrigger" class="c-sp_navigation_btn"></div>
                       </nav>
                     </div>
                   </div>
@@ -287,20 +249,11 @@
                       <nav>
                         <div class="-menu_right">
                           <ul class="c-menu -menu_b">
-                            <li>
-                              <a href="../guide/policy.html" data-pid="171"
-                                >プライバシーポリシー</a
-                              >
-                            </li>
+                            <li><a href="../guide/policy.html" data-pid="171">プライバシーポリシー</a></li>
                             <li>
                               <div class="c-img">
-                                <a
-                                  href="https://www.facebook.com/marumatsurabo/"
-                                  ><img
-                                    src="../_src/2258/sign.png?v=1560435059684"
-                                    alt=""
-                                    id="imgsrc2258_1"
-                                    class="c-no_adjust"
+                                <a href="https://www.facebook.com/marumatsurabo/"
+                                  ><img src="../_src/2258/sign.png?v=1560435059684" alt="" id="imgsrc2258_1" class="c-no_adjust"
                                 /></a>
                               </div>
                             </li>
@@ -310,36 +263,12 @@
                       <nav>
                         <div class="-menu_right">
                           <ul class="c-menu -menu_a">
-                            <li>
-                              <a href="../about.html" data-pid="158"
-                                >会社案内</a
-                              >
-                            </li>
-                            <li>
-                              <a href="../products/index.html" data-pid="157"
-                                >取扱商品</a
-                              >
-                            </li>
-                            <li>
-                              <a href="../revue/voice.html" data-pid="172"
-                                >お客様の声</a
-                              >
-                            </li>
-                            <li>
-                              <a href="../qa.html" data-pid="156"
-                                >よくあるご質問</a
-                              >
-                            </li>
-                            <li>
-                              <a href="../reuse.html" data-pid="170"
-                                >リユース・レンタル商品</a
-                              >
-                            </li>
-                            <li>
-                              <a href="../guide/contact.html" data-pid="159"
-                                >お問合せはこちら</a
-                              >
-                            </li>
+                            <li><a href="../about.html" data-pid="158">会社案内</a></li>
+                            <li><a href="../products/index.html" data-pid="157">取扱商品</a></li>
+                            <li><a href="../revue/voice.html" data-pid="172">お客様の声</a></li>
+                            <li><a href="../qa.html" data-pid="156">よくあるご質問</a></li>
+                            <li><a href="../reuse.html" data-pid="170">リユース・レンタル商品</a></li>
+                            <li><a href="../guide/contact.html" data-pid="159">お問合せはこちら</a></li>
                           </ul>
                         </div>
                       </nav>
@@ -353,15 +282,9 @@
         <div id="a-billboard" class="a-billboard cssskin-_area_billboard">
           <div class="site_frame">
             <section>
-              <div
-                id="bk6853"
-                class="b-plain c-space_normal c-sp-space_normal cssskin-_block_billboard"
-                data-bk-id="bk6853"
-              >
+              <div id="bk6853" class="b-plain c-space_normal c-sp-space_normal cssskin-_block_billboard" data-bk-id="bk6853">
                 <div class="column -column1">
-                  <div class="c-lead c-center">
-                    ICカード　QRコード決済対応券売機
-                  </div>
+                  <div class="c-lead c-center">ICカード　QRコード決済対応券売機</div>
                   <h2 class="c-title c-center">IC&amp;QR</h2>
                 </div>
               </div>
@@ -375,13 +298,7 @@
                 <div class="g-column">
                   <div id="a-main" class="a-main column -col12">
                     <section>
-                      <div
-                        id="bk6854"
-                        class="b-plain c-space_normal c-sp-space_normal bd-sm-smart -dress_ap020breadcrumbs cssskin-_block_main"
-                        data-bk-id="bk6854"
-                        data-shared="true"
-                        data-sharedname="_パンくずリスト"
-                      >
+                      <div id="bk6854" class="b-plain c-space_normal c-sp-space_normal bd-sm-smart -dress_ap020breadcrumbs cssskin-_block_main" data-bk-id="bk6854">
                         <div class="column -column1">
                           <div class="c-none">
                             &nbsp;
@@ -393,298 +310,133 @@
                           </div>
                         </div>
                       </div>
-                      <div
-                        id="bk6855"
-                        class="b-plain c-space_normal c-sp-space_normal cssskin-_block_main"
-                        data-bk-id="bk6855"
-                      >
+                      <div id="bk6855" class="b-plain c-space_normal c-sp-space_normal cssskin-_block_main" data-bk-id="bk6855">
                         <div class="column -column1" id="mission">
                           <h3 class="quote c-large_headline c-center">
                             マルマツレボは<br />クレジットカード・ICカード・QRコード<br />キャッシュレス決済対応券売機をおススメします!!
                           </h3>
-                          <div class="c-body c-center">
-                            <hr class="c-hr" />
-                          </div>
+                          <div class="c-body c-center"><hr class="c-hr" /></div>
                         </div>
                       </div>
-                      <div
-                        id="bk6871"
-                        class="b-both_diff -right_large -sp-single_column c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-_block_main"
-                        data-bk-id="bk6871"
-                      >
+                      <div id="bk6871" class="b-both_diff -right_large -sp-single_column c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-_block_main" data-bk-id="bk6871">
                         <div class="g-column">
                           <div class="column -col4">
                             <div class="c-body">
                               <div class="c-img">
-                                <img
-                                  src="../_src/6571/138f83c5c554b52fb3435e9f1614529f_s.jpg?v=1560435059684"
-                                  alt=""
-                                  id="imgsrc6571_1"
-                                />
+                                <img src="../_src/6571/138f83c5c554b52fb3435e9f1614529f_s.jpg?v=1560435059684" alt="" id="imgsrc6571_1" />
                               </div>
                             </div>
                           </div>
                           <div class="column -col8">
-                            <font size="4"
-                              >マルマツレボは、お店の特徴や販売形態、客層に合わせたキャッシュレス決済対応券売機をご提案し、サービス向上のお手伝いをいたします。
-                            </font>
-                            </div>
+                            <font size="4">マルマツレボは、お店の特徴や販売形態、客層に合わせたキャッシュレス決済対応券売機をご提案し、サービス向上のお手伝いをいたします。</font>
+                          </div>
                         </div>
                       </div>
 
                       <div class="b-plain c-space_normal c-sp-space_normal cssskin-_block_main">
                         <div class="column -column1">
-                          <h3 class="c-large_headline c-center">
-                            キャッシュレス決済可能な券売機
-                          </h3>
-                          <div class="c-body c-center">
-                            <hr class="c-hr" />
-                          </div>
+                          <h3 class="c-large_headline c-center">キャッシュレス決済可能な券売機</h3>
+                          <div class="c-body c-center"><hr class="c-hr" /></div>
                         </div>
                       </div>
 
                       <div class="product-section">
-                        
                         <div class="product-category-title">タッチパネル式</div>
                         <div class="machine-grid">
-                            <div class="machine-item">
-                                <img src="../_src/products/VT-T21M.jpg" alt="VT-T21M">
-                                <p>VT-T21M</p>
-                            </div>
-                            <div class="machine-item">
-                                <img src="../_src/products/KC-TX.jpg" alt="KC-TX">
-                                <p>KC-TX</p>
-                            </div>
-                            <div class="machine-item">
-                                <img src="../_src/products/MPT4S.jpg" alt="MPT4S">
-                                <p>MPT4S</p>
-                            </div>
+                            <div class="machine-item"><img src="../_src/products/VT-T21M.jpg" alt="VT-T21M"><p>VT-T21M</p></div>
+                            <div class="machine-item"><img src="../_src/products/KC-TX.jpg" alt="KC-TX"><p>KC-TX</p></div>
+                            <div class="machine-item"><img src="../_src/products/MPT4S.jpg" alt="MPT4S"><p>MPT4S</p></div>
                         </div>
-
                         <div class="product-category-title">ボタン式</div>
-                        
                         <div class="machine-grid">
-                            <div class="machine-item">
-                                <img src="../_src/products/VT-G21M.jpg" alt="VT-G21M">
-                                <p>VT-G21M</p>
-                            </div>
-                            <div class="machine-item">
-                                <img src="../_src/products/VT-B20.png" alt="VT-B20">
-                                <p>VT-B20</p>
-                            </div>
-                            <div class="machine-item">
-                                <img src="../_src/products/VT-S20.png" alt="VT-S20">
-                                <p>VT-S20</p>
-                            </div>
+                            <div class="machine-item"><img src="../_src/products/VT-G21M.jpg" alt="VT-G21M"><p>VT-G21M</p></div>
+                            <div class="machine-item"><img src="../_src/products/VT-B20.png" alt="VT-B20"><p>VT-B20</p></div>
+                            <div class="machine-item"><img src="../_src/products/VT-S20.png" alt="VT-S20"><p>VT-S20</p></div>
                         </div>
-
                         <div class="machine-grid" style="margin-top: 20px;">
-                            <div class="machine-item">
-                                <img src="../_src/products/BT-e3ｼﾘｰｽﾞ.jpg" alt="BT-e3シリーズ">
-                                <p>BT-e3シリーズ</p>
-                            </div>
-                            <div class="machine-item">
-                                <img src="../_src/products/BT-L350.jpg" alt="BT-L350">
-                                <p>BT-L350</p>
-                            </div>
+                            <div class="machine-item"><img src="../_src/products/BT-e3ｼﾘｰｽﾞ.jpg" alt="BT-e3シリーズ"><p>BT-e3シリーズ</p></div>
+                            <div class="machine-item"><img src="../_src/products/BT-L350.jpg" alt="BT-L350"><p>BT-L350</p></div>
                             <div class="machine-item" style="visibility: hidden;"></div>
                         </div>
-
                         <div class="machine-grid" style="margin-top: 20px;">
-                            <div class="machine-item">
-                                <img src="../_src/products/KB-272EX.jpg" alt="KB-272EX">
-                                <p>KB-272EX</p>
-                            </div>
-                            <div class="machine-item">
-                                <img src="../_src/products/KB172NNS.jpg" alt="KB172NNS">
-                                <p>KB172NNS</p>
-                            </div>
-                             <div class="machine-item" style="visibility: hidden;"></div>
+                            <div class="machine-item"><img src="../_src/products/KB-272EX.jpg" alt="KB-272EX"><p>KB-272EX</p></div>
+                            <div class="machine-item"><img src="../_src/products/KB172NNS.jpg" alt="KB172NNS"><p>KB172NNS</p></div>
+                            <div class="machine-item" style="visibility: hidden;"></div>
                         </div>
+                      </div>
 
-                      </div>
-                      <div
-                        id="bk6873"
-                        class="b-plain c-space_normal c-sp-space_normal cssskin-_block_main"
-                        data-bk-id="bk6873"
-                      >
+                      <div id="bk6873" class="b-plain c-space_normal c-sp-space_normal cssskin-_block_main" data-bk-id="bk6873">
                         <div class="column -column1" id="service0000">
-                          <h3 class="c-large_headline c-center">
-                            導入のメリット
-                          </h3>
-                          <div class="c-body c-center">
-                            <hr class="c-hr" />
-                          </div>
+                          <h3 class="c-large_headline c-center">導入のメリット</h3>
+                          <div class="c-body c-center"><hr class="c-hr" /></div>
                         </div>
                       </div>
-                      <div
-                        id="bk6872"
-                        class="b-plain c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-ic_img"
-                        data-bk-id="bk6872"
-                      >
+
+                      <div id="bk6872" class="b-plain c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-ic_img" data-bk-id="bk6872">
                         <div class="column -column1">
-                          <div class="c-enclosure c-center">
-                            お客様に、多様化する様々な決済手段を提供！！
-                          </div>
+                          <div class="c-enclosure c-center">お客様に、多様化する様々な決済手段を提供！！</div>
                         </div>
                       </div>
-                      <div
-                        id="bk6874"
-                        class="b-both_diff -right_large -sp-single_column c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-_block_main"
-                        data-bk-id="bk6874"
-                      >
-                      <div class="column -column1">
-                      <div class="c-img" style="margin-top: 20px;">
-                      <img src="detail/pay_card_elec_code_2.jpg" alt="マルチ決済イメージ" style="width: 100%; max-width: 100%; height: auto; display: block;">
-                       </div>
-                        </div>
-                      </div>
-                      <div
-                        id="bk6877"
-                        class="b-plain c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-ic_img"
-                        data-bk-id="bk6877"
-                      >
+
+                      <div id="bk6874" class="b-plain c-space_normal c-sp-space_normal cssskin-_block_main" data-bk-id="bk6874">
                         <div class="column -column1">
-                          <div class="c-enclosure c-center">
-                            外国のお客様も満足!! インバウンド対策〈5カ国語対応〉
-                          </div>
+                           <div class="center-image-box">
+                             <img src="detail/pay_card_elec_code_2.jpg" alt="マルチ決済イメージ" style="width: 100%; max-width: 900px; height: auto;">
+                           </div>
                         </div>
                       </div>
-                      <div
-                        id="bk6879"
-                        class="b-both_diff -right_large -sp-single_column c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-_block_main"
-                        data-bk-id="bk6879"
-                      >
+
+                      <div id="bk6877" class="b-plain c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-ic_img" data-bk-id="bk6877">
+                        <div class="column -column1">
+                          <div class="c-enclosure c-center">外国のお客様も満足!! インバウンド対策〈5カ国語対応〉</div>
+                        </div>
+                      </div>
+                      <div id="bk6879" class="b-both_diff -right_large -sp-single_column c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-_block_main" data-bk-id="bk6879">
                         <div class="g-column">
                           <div class="column -col4">
-                            <div class="c-body">
-                              <div class="c-img">
-                                <img
-                                  src="../_src/6605/kankoku.jpg?v=1560435059684"
-                                  alt=""
-                                  id="imgsrc6605_1"
-                                />
-                              </div>
-                            </div>
+                            <div class="c-body"><div class="c-img"><img src="../_src/6605/kankoku.jpg?v=1560435059684" alt="" id="imgsrc6605_1" /></div></div>
                           </div>
                           <div class="column -col8">
-                            <p class="c-body">
-                              日本語や英語・中国語といった複数（5ヶ国語）の言語表示に対応し外国人観光客も操作のしやすい券売機です。
-                            </p>
+                            <p class="c-body">日本語や英語・中国語といった複数（5ヶ国語）の言語表示に対応し外国人観光客も操作のしやすい券売機です。</p>
                           </div>
                         </div>
                       </div>
-                      <div
-                        id="bk6875"
-                        class="b-plain c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-ic_img"
-                        data-bk-id="bk6875"
-                      >
+                      <div id="bk6875" class="b-plain c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-ic_img" data-bk-id="bk6875">
                         <div class="column -column1">
-                          <div class="c-enclosure c-center">
-                            お店の導入メリット
-                          </div>
+                          <div class="c-enclosure c-center">お店の導入メリット</div>
                         </div>
                       </div>
-                      <div
-                        id="bk6876"
-                        class="b-both_diff -right_large -sp-single_column c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-_block_main"
-                        data-bk-id="bk6876"
-                      >
+                      <div id="bk6876" class="b-both_diff -right_large -sp-single_column c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-_block_main" data-bk-id="bk6876">
                         <div class="g-column">
                           <div class="column -col4">
-                            <div class="c-body">
-                              <div class="c-img">
-                                <img
-                                  src="../products/detail/restaurant.jpg"
-                                  alt=""
-                                  id="imgsrc6591_1"
-                                />
-                              </div>
-                            </div>
+                            <div class="c-body"><div class="c-img"><img src="../products/detail/restaurant.jpg" alt="" id="imgsrc6591_1" /></div></div>
                           </div>
                           <div class="column -col8">
                             <ul class="c-list-sign">
-                              <li>
-                                <span style="font-size: 19px"
-                                  >キャッシュレス決済代行会社を通すことによりカード会社毎の入金が一括処理出来ます。</span
-                                >
-                              </li>
-                              <li>
-                                <span style="font-size: 19px"
-                                  >お客様はポイントやマイルを貯めたくてカードを利用するケースが増えています。現金客と異なる客層を囲い込み集客力の上昇が見込めます。</span
-                                >
-                              </li>
-                              <li>
-                                <span style="font-size: 19px"
-                                  >現金取引が減ることにより、つり銭準備金が少なく済み閉店後の現金集計業務が短縮されます。</span
-                                >
-                              </li>
+                              <li><span style="font-size: 19px">キャッシュレス決済代行会社を通すことによりカード会社毎の入金が一括処理出来ます。</span></li>
+                              <li><span style="font-size: 19px">お客様はポイントやマイルを貯めたくてカードを利用するケースが増えています。現金客と異なる客層を囲い込み集客力の上昇が見込めます。</span></li>
+                              <li><span style="font-size: 19px">現金取引が減ることにより、つり銭準備金が少なく済み閉店後の現金集計業務が短縮されます。</span></li>
                             </ul>
                           </div>
                         </div>
                       </div>
-                      <div
-                        id="bk6880"
-                        class="b-plain c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-_block_main"
-                        data-bk-id="bk6880"
-                      >
+                      <div id="bk6880" class="b-plain c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal cssskin-_block_main" data-bk-id="bk6880">
                         <div class="column -column1">
-                          <div class="c-blockquote c-center">
-                            <hr class="c-hr" />
-                          </div>
-                          <div class="c-blockquote c-center">
-                            マルマツレボでは、その他カスタマイズを承っております。
-                            <br />お気軽にお問い合わせください。
-                          </div>
+                          <div class="c-blockquote c-center"><hr class="c-hr" /></div>
+                          <div class="c-blockquote c-center">マルマツレボでは、その他カスタマイズを承っております。<br />お気軽にお問い合わせください。</div>
                         </div>
                       </div>
-                      <div
-                        id="bk6857"
-                        class="b-plain -bg-stretch c-space_normal c-sp-space_normal -dress_black cssskin-_block_main"
-                        data-bk-id="bk6857"
-                        data-shared="true"
-                        data-sharedname="_お問い合わせ"
-                      >
+                      <div id="bk6857" class="b-plain -bg-stretch c-space_normal c-sp-space_normal -dress_black cssskin-_block_main" data-bk-id="bk6857">
                         <div class="column -column1">
                           <h3 class="c-large_headline c-center">CONTACT</h3>
                           <div class="c-lead c-center">お問い合わせ</div>
-                          <div class="c-none c-center">
-                            <hr class="c-hr" />
-                          </div>
+                          <div class="c-none c-center"><hr class="c-hr" /></div>
                           <div class="c-none c-center">&nbsp;</div>
-                          <div class="c-body c-center">
-                            お電話からのご相談・ご質問
-                            <br />ご質問やお見積もりのご相談は電話でもお受けしております。
-                            <br />是非お電話ください。
-                            <br />平日9：00～18：00に受け付けております。
-                            <br />電話番号：（代表）054-655-2320
-                          </div>
+                          <div class="c-body c-center">お電話からのご相談・ご質問<br />ご質問やお見積もりのご相談は電話でもお受けしております。<br />是非お電話ください。<br />平日9：00～18：00に受け付けております。<br />電話番号：（代表）054-655-2320</div>
                           <div class="c-body c-center">&nbsp;</div>
-                          <div class="c-body c-center">
-                            メールフォームのお問合せは以下からどうぞ
-                          </div>
-                          <div class="c-body c-center">
-                            <br />
-                            <a
-                              href="../guide/contact.html"
-                              data-pid="159"
-                              class="btn-default"
-                              ><img
-                                src="../_src/2276/icon_border.png?v=1560435059684"
-                                alt="LinkIcon"
-                              />　お問い合わせ</a
-                            >
-                          </div>
+                          <div class="c-body c-center">メールフォームのお問合せは以下からどうぞ</div>
+                          <div class="c-body c-center"><br /><a href="../guide/contact.html" data-pid="159" class="btn-default"><img src="../_src/2276/icon_border.png?v=1560435059684" alt="LinkIcon" />　お問い合わせ</a></div>
                         </div>
-                      </div>
-                      <div
-                        id="bk6858"
-                        class="b-plain cssskin-_block_main"
-                        data-bk-id="bk6858"
-                        data-shared="true"
-                        data-sharedname="_トップに戻る"
-                      >
-                        <div class="column -column1"></div>
                       </div>
                     </section>
                   </div>
@@ -693,186 +445,49 @@
             </article>
           </div>
         </main>
-        <div
-          id="a-footer"
-          data-float="false"
-          class="a-footer cssskin-_area_footer"
-        >
+        <div id="a-footer" data-float="false" class="a-footer cssskin-_area_footer">
           <footer>
             <div class="site_frame">
-              <div
-                id="bk6861"
-                class="b-plain c-space_normal c-sp-space_normal bd-sm-smart -dress_white cssskin-_block_footer"
-                data-bk-id="bk6861"
-                data-shared="true"
-                data-sharedname="_フッタパンくずリスト"
-              >
+              <div id="bk6861" class="b-plain c-space_normal c-sp-space_normal bd-sm-smart -dress_white cssskin-_block_footer" data-bk-id="bk6861">
                 <div class="column -column1">
                   <div class="c-none">&nbsp;</div>
-                  <p class="c-body"></p>
-                  <div class="c-breadcrumb">
-                    <a href="../index.html" data-pid="155">HOME</a> |
-                    <a href="index.html" data-pid="157">products</a> |
-                    <em>ICカード　QRコード決済対応券売機</em>
-                  </div>
-                  <p></p>
+                  <div class="c-breadcrumb"><a href="../index.html" data-pid="155">HOME</a> | <a href="index.html" data-pid="157">products</a> | <em>ICカード　QRコード決済対応券売機</em></div>
                 </div>
               </div>
-              <div
-                id="bk6862"
-                class="b-plain -blog-article c-space_normal c-sp-space_normal cssskin-_block_footer"
-                data-bk-id="bk6862"
-                data-shared="true"
-                data-sharedname="_フッタメニュー"
-              >
+              <div id="bk6862" class="b-plain -blog-article c-space_normal c-sp-space_normal cssskin-_block_footer" data-bk-id="bk6862">
                 <div class="column -column1">
                   <nav>
                     <div class="-menu_left">
                       <ul class="c-menu -menu_c">
-                        <li>
-                          <a href="../about.html" data-pid="158">会社案内</a>
-                        </li>
-                        <li>
-                          <a href="../products/index.html" data-pid="157"
-                            >取扱商品</a
-                          >
-                        </li>
-                        <li>
-                          <a href="../revue/voice.html" data-pid="172"
-                            >お客様の声</a
-                          >
-                        </li>
-                        <li>
-                          <a href="../qa.html" data-pid="156">よくあるご質問</a>
-                        </li>
-                        <li>
-                          <a href="../reuse.html" data-pid="170"
-                            >リユース・レンタル商品</a
-                          >
-                        </li>
-                        <li>
-                          <a href="../guide/contact.html" data-pid="159"
-                            >お問合せはこちら</a
-                          >
-                        </li>
-                        <li>
-                          <a href="../guide/policy.html" data-pid="171"
-                            >プライバシーポリシー</a
-                          >
-                        </li>
+                        <li><a href="../about.html" data-pid="158">会社案内</a></li>
+                        <li><a href="../products/index.html" data-pid="157">取扱商品</a></li>
+                        <li><a href="../revue/voice.html" data-pid="172">お客様の声</a></li>
+                        <li><a href="../qa.html" data-pid="156">よくあるご質問</a></li>
+                        <li><a href="../reuse.html" data-pid="170">リユース・レンタル商品</a></li>
+                        <li><a href="../guide/contact.html" data-pid="159">お問合せはこちら</a></li>
+                        <li><a href="../guide/policy.html" data-pid="171">プライバシーポリシー</a></li>
                       </ul>
                     </div>
                   </nav>
                 </div>
               </div>
-              <div
-                id="bk6863"
-                class="b-plain -blog-article c-space_normal c-sp-space_normal cssskin-_block_footer"
-                data-bk-id="bk6863"
-                data-shared="true"
-                data-sharedname="_クレジット"
-              >
+              <div id="bk6863" class="b-plain -blog-article c-space_normal c-sp-space_normal cssskin-_block_footer" data-bk-id="bk6863">
                 <div class="column -column1">
-                  <div class="c-none">
-                    <hr class="c-hr" />
-                  </div>
-                  <p class="c-body">
-                    マルマツレボ株式会社<br />〒422-8008静岡県静岡市駿河区栗原6-25静鉄栗原ビル4F
-                    電話番号：（代表）054-655-2320
-                  </p>
-                  <p class="c-credit">
-                    ©Copyright MARUMATSU RABO Co., Ltd. All Rights Reserved.
-                  </p>
+                  <div class="c-none"><hr class="c-hr" /></div>
+                  <p class="c-body">マルマツレボ株式会社<br />〒422-8008静岡県静岡市駿河区栗原6-25静鉄栗原ビル4F 電話番号：（代表）054-655-2320</p>
+                  <p class="c-credit">©Copyright MARUMATSU RABO Co., Ltd. All Rights Reserved.</p>
                 </div>
               </div>
             </div>
           </footer>
         </div>
-        <div id="w-top-left" class="w-base w-top w-left">
-          <div id="bk6865" class="b-plain" data-bk-id="bk6865">
-            <div class="column -column1"></div>
-          </div>
-        </div>
-        <div id="w-top-right" class="w-base w-top w-right">
-          <div id="bk6866" class="b-plain" data-bk-id="bk6866">
-            <div class="column -column1"></div>
-          </div>
-        </div>
-        <div id="w-middle-left" class="w-base w-middle w-left">
-          <div id="bk6867" class="b-plain" data-bk-id="bk6867">
-            <div class="column -column1"></div>
-          </div>
-        </div>
-        <div id="w-middle-right" class="w-base w-middle w-right">
-          <div
-            id="bk6868"
-            class="b-plain -blog-article c-space_normal c-sp-space_normal c-sp-padding_init"
-            data-bk-id="bk6868"
-            data-shared="true"
-            data-sharedname="_ウィジェットボタン"
-          >
-            <div class="column -column1">
-              <div class="c-none c-right">
-                <div class="c-img">
-                  <a href="../guide/contact.html" data-pid="159"
-                    ><img
-                      src="../_src/2338/sign.png?v=1560435059684"
-                      alt=""
-                      id="imgsrc2338_1"
-                  /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="w-bottom-left" class="w-base w-bottom w-left">
-          <div id="bk6869" class="b-plain" data-bk-id="bk6869">
-            <div class="column -column1"></div>
-          </div>
-        </div>
-        <div
-          id="w-bottom-right"
-          class="w-base w-bottom w-right"
-          data-disp-on-scroll="true"
-        >
-          <div
-            id="bk6870"
-            class="b-plain c-space_normal c-sp-space_normal c-padding_normal c-sp-padding_normal"
-            data-bk-id="bk6870"
-            data-shared="true"
-            data-sharedname="pageup"
-          >
-            <div class="column -column1">
-              <div class="c-none c-center">
-                <a href="#" class="c-link_top js-link_scroller"
-                  ><span class="bindicon-arrow-up"></span
-                ></a>
-                <style>
-                  .c-link_top {
-                    display: inline-block;
-                    width: 3em;
-                    height: 3em;
-                    border: 1px solid;
-                    border-radius: 50%;
-                    text-align: center;
-                    line-height: 3;
-                  }
-                </style>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <script type="text/javascript">
       var css_list = [ "//fonts.googleapis.com/css?family=Rajdhani:300,regular,500,600,700", "../_cssskin/_area_side_a.css", "../_cssskin/_area_billboard.css", "../_cssskin/_area_ghost_header.css", "../_cssskin/_area_main.css", "../_cssskin/_area_header.css", "../_cssskin/_area_side_b.css", "../_cssskin/_area_footer.css", "../_cssskin/_block_footer.css", "../_cssskin/_block_header.css", "../_cssskin/_block_ghost_header.css", "../_cssskin/ic_img.css", "../_cssskin/_block_side_a.css", "../_cssskin/_block_side_b.css", "../_cssskin/_block_billboard.css", "../_cssskin/_block_main.css", "../_csslinkbtn/btn-import.css" ]; var page_update = 1560435059684;
-      </script>
+    </script>
     <script src="../_module/lib/lib.js?v=11.0.8"></script>
     <script src="../_module/scripts/bind.js?v=11.0.8" id="script-js"></script>
-    <script type="text/javascript"></script>
-    <meta
-      name="keywords"
-      content="券売機,食券,販売機,タッチパネル式券売機,自動券売機,静岡県,静岡市,安い,激安,マルマツレボ,マルマツレボ株式会社,GLORY,芝浦メカトロニクス株式会社,NECマグナスコミュニケーションズ,静岡,浜松,伊豆,伊豆の国,三島,沼津,裾野,御殿場,小山,富士,富士宮,焼津,藤枝,島田,牧之原,磐田,袋井,掛川,袋井,"
-    />
-    </body>
+    <meta name="keywords" content="券売機,食券,販売機,タッチパネル式券売機,自動券売機,静岡県,静岡市,安い,激安,マルマツレボ,マルマツレボ株式会社,GLORY,芝浦メカトロニクス株式会社,NECマグナスコミュニケーションズ,静岡,浜松,伊豆,伊豆の国,三島,沼津,裾野,御殿場,小山,富士,富士宮,焼津,藤枝,島田,牧之原,磐田,袋井,掛川,袋井," />
+  </body>
 </html>
